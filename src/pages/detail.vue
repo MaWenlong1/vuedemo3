@@ -61,7 +61,7 @@ export default {
   computed: {
     productIcon() {
       return this.imgMap[this.$route.path];
-    }
+    } 
   }
 };
 </script>
